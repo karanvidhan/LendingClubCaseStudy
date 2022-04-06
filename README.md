@@ -1,52 +1,31 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> Lending loans to ‘risky’ applicants is the largest source of financial loss
+(called credit loss). The credit loss is the amount of money lost by the lender 
+when the borrower refusesto pay or runs away with the money owed.  
 
+The main objective is to be able to identify these risky loan applicants, 
+then such loans can be reduced thereby cutting down the amount of credit loss. 
+Identification of such applicants using EDA is the aim of this case study.   
+
+Perform an analysis to understand the driving factors (or driver variables)
+behind loan default, i.e.the variables which are strong indicators of default.  
+The company can utilise this knowledge for its portfolio and risk assessment. 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
-
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+* Data Cleaning 1
+* Univariate Analysis
+* Segemented Univariate Analysis
+* Bivaraiate/Multivariate Analysis
+* Results
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Low grade loans have high tendency to default. Grading system is working as expected.
+- Loans having higher interest rate have more defaulters. Check the background of applicant thoroughly if interest rate is high.
+- Extra scrutiny must be done for the applicants belonging to CA state, as tendency to default is high.
+- When the purpose is debt consolidation check applicant thoroughly as it has high tendency to default.
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
-
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
-## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+## Contributors
+   Karan Vidhan
+   Omkar Satapathy
+   
+-- Developed as part of the Exloratory Data Analysis Module required for Post Graduate Diploma in Machine Learning and AI - IIIT,Bangalore.
